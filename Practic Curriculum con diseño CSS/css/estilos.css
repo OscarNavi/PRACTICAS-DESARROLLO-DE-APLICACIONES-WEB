@@ -1,0 +1,111 @@
+.TI{
+    background-color: #6a94ecaf;
+    padding: auto;
+    font-size: 100px;
+   
+     font-family: Helvetica, Geneva, Arial,
+             SunSans-Regular, sans-serif 
+}
+
+.autor{
+    background-color: #5066a1;
+    font-size: 25px;
+    margin: 0 auto;
+
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif
+}
+.DATOS{
+    background-color: #5066a1;
+ padding: auto;
+
+  font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif
+}
+
+.PERFIL{
+ background-color: #5066a1;
+ padding: 0%;
+ border-left: #b5a4ca;  
+ font-family: Helvetica, Geneva, Arial,
+             SunSans-Regular, sans-serif
+ 
+}
+.EXPERIENCIA{
+    background-color: #5066a1;
+    padding: auto;
+
+     font-family: Helvetica, Geneva, Arial,
+             SunSans-Regular, sans-serif
+}
+.Preparación{
+    background-color: #5066a1;
+    padding: auto;
+  
+     font-family: Helvetica, Geneva, Arial,
+             SunSans-Regular, sans-serif
+}
+.grado{
+    background: #5066a1;
+    margin: 0.5em 0;
+    padding: 0.3em;
+ 
+}
+.IDIOMAS{
+    background-color: #5066a1;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif
+}   
+.Habilidades{
+    background: #5066a1;
+    margin: 0.5em 0;
+    padding: 0.3em;
+
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif
+}
+.proyecto{
+    background-color: #5066a1;
+    padding: auto;
+     
+     font-family: Helvetica, Geneva, Arial,
+             SunSans-Regular, sans-serif  
+}
+.contacto{
+
+  background: #5066a1;
+  margin: 0.5em 0;
+  padding: 0.3em;
+ 
+}
+.header{
+    background: #5066a1;
+    margin: 0.5em 0;
+    padding: 0.3em;
+  
+}
+.content{
+    background: #5066a1;
+    margin: 0.5em 0;
+    padding: 0.3em;
+  
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif   
+}
+.test1{
+    background-color: #6a94ecaf;
+    padding: auto;
+   
+     font-family: Helvetica, Geneva, Arial,
+             SunSans-Regular, sans-serif 
+}
+
+.FOOT{
+    background-color: #6a94ecaf;
+    padding: auto;
+   
+     font-family: Helvetica, Geneva, Arial,
+             SunSans-Regular, sans-serif 
+}

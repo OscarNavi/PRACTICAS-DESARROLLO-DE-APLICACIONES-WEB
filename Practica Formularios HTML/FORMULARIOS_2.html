@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charsat = "utf-a" />
+    <title>Ejemplo formularios - NAVI</title>
+    <link rel="stylesheet" href="./css/miestilo.css"/>
+    </head>
+    <body bgcolor="#5066a1">
+    <form action="html5-formularios.html" method="get" autocomplete>
+        <h3>text</h3>
+        <label from="nombre">Nombre:</label>
+        <input name="nombre" type="text" value="" readonly disabled size="40" maxlength="10" pattern="[A-Za-z]{3}"
+        placeholder="Fisrtname">
+        <h3>radio</h3>
+        <input type="radio" name="gender" values="male" checked>MASCULINO
+        <br>
+        <input type="radio" name="gender" values="female" >FEMENINO
+        <br>
+        <input type="radio" name="gender" values="other" >OTRO
+        <h3> select </h3>
+        <label from ="cars">cars:</label>
+        <select name="cars">
+            <option value = "volvo">volvo</option>
+            <option value = "Saab">Saab</option>
+            <option value = "fiat">Fiat</option>
+            <option value = "audi">Audi</option>
+        </select>
+        <h3>textarea</h3>
+        <textarea name="message" rows="10" cols="30">
+            the cat was playing in the garden
+        </textarea>
+        <h3>details</h3>
+        <label from="nombre">Navegador:</label>
+        <input list="browsers">
+        <details id="browsers">
+            <option value="Internet explorer">
+                <option value="firefox">
+                    <option value="chrome">
+                        <option value ="opera">
+                            <option value="safari">
+                                </datalist>
+                            </option>
+                            
+    <h3> password</h3>
+    <label from="password">Keyword:</label>
+    <input type="password" name="psw" required>
+    <h3>checkbox</h3>
+    <input type="checkbox" name="vehicle1" value="bike">i have a bike<br>
+    <input type="checkbox" name="vehicle1" value="car">i have a car
+    <h3>color</h3>
+    <label from = "color">color:</label>
+    <input type="color" name="favcolor">
+    <h3>Fecha</h3>
+    <label from="date">date:</label>
+    <input type="date" name="bday" min="2000-01-02">
+    <h3>datetime</h3>
+    <label from="datetime">datetime:</label>
+    <input type="datetime-local" name="bdaytime">
+    <h3>email</h3>
+    <label from="email">email:</label>
+    <input type="email" name="email" autocomplete="off">
+    <h3>number</h3>
+    <label from="numero">numero:</label>
+    <input type="numero" name="quantity" min="1" max="25" step="3">
+    <h3>points</h3>
+    <label from="points">points:</label>
+    <input type="number" name="points" min="0" max="100" step="10" value="30">
+    <h3>range</h3>
+    <label from="range">rango:</label>
+    <input type="range" name="points" min="0" max="10">
+    <h3>search</h3>
+    <label from="search">search:</label>
+    <input type="search" name="googlesearch" >
+    <h3>time</h3>
+    <label from="time">hora:</label>
+    <input type="time" name="usr_time" >
+    <h3>URL</h3>
+    <label from="url">url:</label>
+    <input type="url" name="homepage" >
+    <h3>week</h3>
+    <label from="week">semana del año:</label>
+    <input type="week" name="week_year" >
+    <h3>file</h3>
+    <label from="fichero">ficheros</label>
+    <input type="file" name="img" multiple >
+    <br><br>
+    <input type="submit" value="submit">
+  
+    </form>
+  </body>
+</html>

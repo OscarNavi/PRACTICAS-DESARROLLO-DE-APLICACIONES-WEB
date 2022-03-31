@@ -1,0 +1,26 @@
+body {
+    font-family:'arial';
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    background-color: rgb(79, 124, 248);
+    }
+    p {
+    font-family: 'Calibri';
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    }
+    p2 {
+    font-family: 'Calibri';
+    color:rgb(0, 0, 0);
+    text-align: center;
+    }
+    p3 {
+    font-family: 'Calibri';
+    color:rgb(0, 0, 0);
+    text-align: center;
+    }
+    table, th, td{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    border: 1px solid beige;
+    }
